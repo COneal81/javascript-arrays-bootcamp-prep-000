@@ -8,11 +8,17 @@ var chocolateBars = [
     chocolateBars.unshift("starburst")
     return chocolateBars
   }
-  var n = chocolateBars
-  function destructivelyAddElementToBeginningOfArray(n) {["spree",...chocolateBars];
+ 
+  function destructivelyAddElementToBeginningOfArray() {["spree",...chocolateBars];
      return chocolateBars
   }
   
-  function addElementToEndOfArray() {}
+  function addElementToEndOfArray() {
+    chocolateBars.push("starburst");
+    return chocolateBars
+  }
   
-  function destructivelyAddElementToEndOfArray() {}
+  function destructivelyAddElementToEndOfArray() {
+    [...chocolateBars, "spree"]
+    return chocolateBars
+  }
