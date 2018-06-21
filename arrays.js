@@ -8,8 +8,8 @@ var chocolateBars = [
     chocolateBars.unshift("Reeses Cup")
     return chocolateBars
   }
-  
+  var n = chocolateBars
   function destructivelyAddElementToBeginningOfArray() {
-    var chocolateBars = 
+     
     return
   }
