@@ -43,5 +43,9 @@ var chocolateBars = [
     return chocolateBars
   }
   
-  function 
+  function removeElementFromEndOfArray() {
+    chocolateBars.slice(0,
+    chocolateBars.length - 1)
+    return chocolateBars
+  }
   
