@@ -9,6 +9,6 @@ var chocolateBars = [
     return chocolateBars
   }
   var n = chocolateBars
-  function destructivelyAddElementToBeginningOfArray(n) {["spree",...chocolateBars]
+  function destructivelyAddElementToBeginningOfArray(n) {["spree",...chocolateBars];
      return chocolateBars
   }
