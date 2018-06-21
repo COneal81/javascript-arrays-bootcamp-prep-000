@@ -13,4 +13,6 @@ var chocolateBars = [
      return chocolateBars
   }
   
-  function 
+  function addElementToEndOfArray() {}
+  
+  function
