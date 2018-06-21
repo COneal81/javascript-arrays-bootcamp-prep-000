@@ -8,7 +8,7 @@ var chocolateBars = [
    ["spree",...chocolateBars];
     return chocolateBars
   }
- 
+  
   function destructivelyAddElementToBeginningOfArray() { chocolateBars.unshift("starburst")
      return chocolateBars
   }
@@ -25,7 +25,9 @@ var chocolateBars = [
   
   
   function accessElementInArray(){
-    var names = ["Kevin","Kari","Wyatt"];
-    return names[2]
+    return chocolateBars[2]
   }
+  
+  function 
+  
   
