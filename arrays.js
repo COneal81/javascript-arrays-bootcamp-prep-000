@@ -23,4 +23,8 @@ var chocolateBars = [
     return chocolateBars
   }
   
-  function 
+  function accessElementInArray(){
+    var names = "Kevin", "Kari", "Wyatt";
+    return names[2]
+  }
+  
