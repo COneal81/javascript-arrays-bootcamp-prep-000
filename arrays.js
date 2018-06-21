@@ -15,4 +15,4 @@ var chocolateBars = [
   
   function addElementToEndOfArray() {}
   
-  function
+  function destructivelyAddElementToEndOfArray() {}
