@@ -28,6 +28,10 @@ var chocolateBars = [
     return chocolateBars[2]
   }
   
-  function destructivelyRemoveElementFromBeginningOfArray()
+  function destructivelyRemoveElementFromBeginningOfArray(){
+    chocolateBars.shift()
+    return chocolateBars
+  }
   
+  function
   
