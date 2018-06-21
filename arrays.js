@@ -38,5 +38,10 @@ var chocolateBars = [
     return chocolateBars
   }
   
+  function destructivelyRemoveElementFromEndOfArray() {
+    chocolateBars.pop()
+    return chocolateBars
+  }
+  
   function 
   
